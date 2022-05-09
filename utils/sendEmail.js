@@ -22,17 +22,17 @@ const sendEmail = ({
     case 1:
       msg = {
         to: email,
-        from: 'Hackernoon <support@hackernoon.com>', // Use the email address or domain you verified above
+        from: 'Arthur <arthur.tkachenko.netweight@gmail.com>', // Use the email address or domain you verified above
         subject: 'Sending with Twilio SendGrid is Fun',
-        templateId: 'd-dc18336cd62d40fba8820bccb351aa8f'
+        templateId: 'd-b401af5d0ff348c6ab3d3e0d29e0e001'
       };
       break;
     case 2:
       msg = {
         to: email,
-        from: 'Hackernoon <support@hackernoon.com>', // Use the email address or domain you verified above
+        from: 'Arthur <arthur.tkachenko.netweight@gmail.com>', // Use the email address or domain you verified above
         subject: 'Sending with Twilio SendGrid is Fun',
-        templateId: 'd-5ae6d711deb14a8485a60d7f247cd117',
+        templateId: 'd-b401af5d0ff348c6ab3d3e0d29e0e001',
         dynamicTemplateData: {
           first_name
         }
@@ -41,9 +41,9 @@ const sendEmail = ({
     case 3:
       msg = {
         to: email,
-        from: 'Hackernoon <support@hackernoon.com>', // Use the email address or domain you verified above
+        from: 'Arthur <arthur.tkachenko.netweight@gmail.com>', // Use the email address or domain you verified above
         subject: 'Sending with Twilio SendGrid is Fun',
-        templateId: 'd-722b54a3b56a497a9c9124d273b7f641',
+        templateId: 'd-b401af5d0ff348c6ab3d3e0d29e0e001',
         dynamicTemplateData: {
           first_name,
           article_link,
@@ -55,9 +55,9 @@ const sendEmail = ({
     case 4:
       msg = {
         to: email,
-        from: 'Hackernoon <support@hackernoon.com>', // Use the email address or domain you verified above
+        from: 'Arthur <arthur.tkachenko.netweight@gmail.com>', // Use the email address or domain you verified above
         subject: 'Sending with Twilio SendGrid is Fun',
-        templateId: 'd-87d998d5e4064de1be6dc56b0790b9fb',
+        templateId: 'd-b401af5d0ff348c6ab3d3e0d29e0e001',
         dynamicTemplateData: {
           full_name,
           url,
@@ -68,17 +68,17 @@ const sendEmail = ({
     case 5:
       msg = {
         to: email,
-        from: 'Hackernoon <support@hackernoon.com>', // Use the email address or domain you verified above
+        from: 'Arthur <arthur.tkachenko.netweight@gmail.com>', // Use the email address or domain you verified above
         subject: 'Sending with Twilio SendGrid is Fun',
-        templateId: 'd-1b0b9282b2bb4b18b5056a22aa25f8fb'
+        templateId: 'd-b401af5d0ff348c6ab3d3e0d29e0e001'
       };
       break;
     case 6:
       msg = {
         to: email,
-        from: 'Hackernoon <support@hackernoon.com>', // Use the email address or domain you verified above
+        from: 'Arthur <arthur.tkachenko.netweight@gmail.com>', // Use the email address or domain you verified above
         subject: 'Sending with Twilio SendGrid is Fun',
-        templateId: 'd-dc18336cd62d40fba8820bccb351aa8f',
+        templateId: 'd-b401af5d0ff348c6ab3d3e0d29e0e001',
         dynamicTemplateData: {
           handle,
           storyTitle,

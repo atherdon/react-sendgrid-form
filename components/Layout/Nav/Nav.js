@@ -10,8 +10,10 @@ const { Title } = Typography;
 const Nav = () => (
     <>
         <Title level={2} type="success">
-            Forms
-    </Title>
+                Forms
+        </Title>
+
+
         <Menu mode="inline" theme="dark">
             <Menu.Item key="1">
                 <Old />
@@ -19,10 +21,12 @@ const Nav = () => (
             <Menu.Item key="2">
                 <CreditsFinished />
             </Menu.Item>
+
             <Menu.Item key="3">
                 <GotFlagged />
             </Menu.Item>
-            <Menu.Item key="4">
+
+            {/* <Menu.Item key="4">
                 <PromoStory />
             </Menu.Item>
             <Menu.Item key="5">
@@ -48,7 +52,7 @@ const Nav = () => (
             </Menu.Item>
             <Menu.Item key="12">
                 <AllLinks />
-            </Menu.Item>
+            </Menu.Item> */}
         </Menu>
     </>
 );

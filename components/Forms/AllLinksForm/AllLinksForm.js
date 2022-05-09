@@ -15,7 +15,7 @@ const AllLinksForm = () => (
         <hr />
         <PromoStory />
         <hr />
-        <CreditsPurchased />
+        {/* <CreditsPurchased />
         <hr />
         <StorySubmitted />
         <hr />
@@ -27,7 +27,7 @@ const AllLinksForm = () => (
         <hr />
         <SelectList />
         <hr />
-        <CompanyLogo />
+        <CompanyLogo /> */}
     </>
 )
 
