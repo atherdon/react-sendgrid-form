@@ -8,6 +8,7 @@ const { Title } = Typography;
 
 const Old2019 = ({ email }) => {
   const [isLoading, setIsLoading] = useState(false);
+
   const onFinish = async ({ email, type }) => {
     try {
       setIsLoading(true);
@@ -33,7 +34,7 @@ const Old2019 = ({ email }) => {
   return (
     <>
       <Row justify="center" align="middle">
-        <Title level={2}>Old 2019 version</Title>
+        <Title level={2}>Выработка</Title>
       </Row>
       <Row>
         <Col xs={{ span: 20, offset: 2 }} lg={{ span: 10, offset: 1 }}>
@@ -56,10 +57,14 @@ const Old2019 = ({ email }) => {
           </Form>
         </Col>
         <Col xs={{ span: 20, offset: 2 }} lg={{ span: 10 }}>
-          <Title level={4}>Example</Title>
+
+        <Title level={4}>тут выведу данные которые были введены для проверки</Title>
+          {/* <Title level={4}>Example</Title>
           <Image
             src="/form-images/old-2019.png"
-          />
+          /> */}
+
+
         </Col>
       </Row>
     </>

@@ -33,7 +33,7 @@ const BaaCreditsFinished = ({ email }) => {
   return (
     <>
       <Row justify="center" align="middle">
-        <Title level={2}>BAA Credits Finished #sponsors</Title>
+        <Title level={2}>Заказ</Title>
       </Row>
       <Row>
         <Col xs={{ span: 20, offset: 2 }} lg={{ span: 10, offset: 1 }}>
@@ -62,10 +62,11 @@ const BaaCreditsFinished = ({ email }) => {
           </Form>
         </Col>
         <Col xs={{ span: 20, offset: 2 }} lg={{ span: 10 }}>
-          <Title level={4}>Example</Title>
+        <Title level={4}>тут выведу данные которые были введены для проверки</Title>
+          {/* <Title level={4}>Example</Title>
           <Image
             src="/form-images/baa-credits-finished.png"
-          />
+          /> */}
         </Col>
       </Row>
     </>

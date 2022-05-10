@@ -3,17 +3,17 @@ import { useRouter } from 'next/router';
 
 
 import HackerNoonEnquiry from 'components/Forms/HackerNoonEnquiry';
-import BaaCreditsFinished from 'components/Forms/BaaCreditsFinished';
+import BaaCreditsFinished from 'components/Forms/BaaCreditsFinished-orders';
 import BrandsAsAuthorCredits from 'components/Forms/BrandsAsAuthorCredits';
 import BrandsAsAuthorStory from 'components/Forms/BrandsAsAuthorStory';
 import GotFlaggedAsBaa from 'components/Forms/GotFlaggedAsBaa';
-import Old2019 from 'components/Forms/Old2019';
+import Old2019 from 'components/Forms/Old2019-production';
 import PromotionalStoryDetected from 'components/Forms/PromotionalStoryDetected';
 import BrandsAsAuthorRejected from 'components/Forms/BrandsAsAuthorRejected';
 import PlagiarismOnHackerNoon from 'components/Forms/PlagiarismOnHackerNoon';
 import SelectListForm from 'components/Forms/SelectListForm';
 import UploadCompanyLogo from 'components/Forms/UploadCompanyLogo';
-import AllLinksForm from 'components/Forms/AllLinksForm';
+import AllLinksForm from 'components/Forms/y-AllLinksForm';
 
 const Forms = () => {
   const router = useRouter();
