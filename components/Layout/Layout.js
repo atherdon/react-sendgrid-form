@@ -8,7 +8,7 @@ const PageLayout = ({ children }) => (
   <Layout style={{ height: '100vh' }}>
     <Header style={{ textAlign: 'center', height: '80px' }}>
       <Row justify="center" align="middle" style={{ height: '100%' }}>
-        <Title type="success">React send grid forms</Title>
+        <Title type="success">Commanda app+</Title>
       </Row>
     </Header>
 

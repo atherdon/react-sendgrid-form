@@ -1,23 +1,28 @@
 import React from 'react';
 import Link from 'next/link';
 
+
+
 const Old = () => (
     <Link href="/baa/old-2019">
-        <a>Old 2019 version</a>
+        <a>Выработка</a>
     </Link>
 );
 
 const CreditsFinished = () => (
     <Link href="/baa/credits-finished">
-        <a>BAA Credits Finished #sponsors</a>
+        <a>Заказ</a>
     </Link>
 );
 
 const GotFlagged = () => (
     <Link href="/baa/got-flagged">
-        <a>got flagged as BAA #sponsors</a>
+        <a>Касса</a>
     </Link>
 );
+
+
+
 
 const PromoStory = () => (
     <Link href="/baa/promo-story">
@@ -74,7 +79,12 @@ const AllLinks = () => (
 );
 
 export {
-    Old, CreditsFinished, GotFlagged, PromoStory,
+    Old, CreditsFinished, GotFlagged, 
+    
+    
+    
+    
+    PromoStory,
     CreditsPurchased, StorySubmitted, StoryRejected,
     HackerNoonEnquiry, Plagiarism, SelectList, CompanyLogo,
     AllLinks
